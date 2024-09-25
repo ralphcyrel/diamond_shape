@@ -1,5 +1,5 @@
 #This code will make a diamond shape
-def print_diamond_shape(n):
+def print_diamond(n):
 #Check if n is odd
     if n % 2 == 0:
         print("Input must be an integer" )
@@ -14,4 +14,4 @@ def print_diamond_shape(n):
     for i in range(mid - 1, -1, -1):
         print(" " * (mid - i) + "*" * (2 * i + 1))
 #Example usage of 5
-print_diamong(5)
+print_diamond(5)
